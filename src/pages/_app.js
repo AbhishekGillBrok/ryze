@@ -1,9 +1,11 @@
-import '@/styles/globals.css'
+import style from '../styles/App.module.css'
+import Hero from './components/Hero'
+
 
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <div>ryzd is working</div>
+      <Hero />
     </>
   )
 }
