@@ -23,7 +23,17 @@ function Hero() {
 
                     <button className={style.btn}>Start Trading</button>
                 </div>
+                
+                
                 <div className={style.hero_right}>
+                    <div className={style.hero_card} id={style.down} >
+                        <img className={style.down_img} src="" alt="" srcset="" />
+                    </div>
+
+                    <div className={style.hero_card} id={style.up}>
+                        <img className={style.up_img} src="" alt="" srcset="" />
+                    </div>
+                    
                 </div>
 
 

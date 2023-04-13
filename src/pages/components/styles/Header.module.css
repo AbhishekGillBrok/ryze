@@ -23,7 +23,7 @@
 }
 
 .right_child_2 {
-    margin-right: 40px;
+    margin-right: 40px; 
     
 }
 
@@ -63,6 +63,16 @@
     list-style-type: none;
     margin-left: 24px;
     margin-right: 24px;
+    width: 78px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    cursor: pointer;
+}
+
+.header_li :hover {
+    border-bottom:solid 2px #0071BC;
 }
 
 .header_a {
@@ -81,6 +91,20 @@
     height: 44px;
     cursor: pointer;
     border: none;
+    width: 180px;
+    margin-right: 12px;
+    background-color: #0071BC;
+    color: "white",
 }
 
 
+
+@media only screen and (max-width: 990px){
+    #header_nav {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+}

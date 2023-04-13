@@ -1,6 +1,7 @@
 import style from './styles/Header.module.css'
 import Image from 'next/image'
 import logo from './image/logo.png'
+import Hamburg from './Hamburg'
 
 
 function Header() {
@@ -39,12 +40,11 @@ function Header() {
               <li className={style.header_li}><a className={style.header_a} href='#'>Product</a></li>
               <li className={style.header_li}><a className={style.header_a} href='#'>Product</a></li>
             </ul>
+
+            <Hamburg />
           </nav>
           <button style={{
-            width: "180px",
-            marginRight: "12px",
-            backgroundColor: "#0071BC",
-            color: "white",
+
           }}
             className={style.btn}
           >Open Account</button>
